@@ -39,7 +39,7 @@
 	<![endif]-->
 
 	</head>
-	<body onload="Funcionalidades()">
+	<body>
 		<section>
 			<div id="fh5co-page">
 				
@@ -51,6 +51,16 @@
 						<ul>
 							<li class="home"><a href="index.html">Home</a></li>
 							<li><a href="#comunicacao">Comunicação</a></li>
+							
+							<li><a href="#" data-toggle="collapse" data-target="#toggleDemo"> Submenu 1 <span class="fa fa-lg fa-angle-right"></span>
+						          </a></li>
+						          <div class="collapse espaco" id="toggleDemo">
+						            <ul>
+						              <li ><a href="index.html">home</a></li>
+						              <li><a href="#">Submenu1.2</a></li>
+						              <li><a  class="" href="#">Submenu1.3</a></li>
+						            </ul>
+						           </div>
 							<li><a href="#linguagem">Linguagem</a></li>
 							<li><a href="#framework">Framework</a></li>
 							<li><a href="#editor-codigo">Editor de código</a></li>
@@ -77,10 +87,10 @@
 								
 								<h1>Manual da Web</h1>
 									<p>Aqui é lugar onde você encontra os ambientes de desenvolvimento que são usados no site da Fatec RL. Os meios de comunicação da equipe, padronizações, manual de identidade e algumas dicas essenciais para a continuidade do nosso sistema.</p>
-									<h2 id="comunicacao">Comunicação da equipe</h2>
+									<h3 id="comunicacao">Comunicação da equipe</h3>
       				 					<p>Uma boa cominucação é fundamental para uma equipe em desenvolvimento e para isso fazemos uso do <span class="atencao"><a href="trello.html">Trello</a></span> e <span class="atencao"><a href="slack.html">#Slack</a></span></p>
 							
-					        		<h2 id="linguagem">Linguagens de Programação</h2>
+					        		<h3 id="linguagem">Linguagens de Programação</h3>
 					        			<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 											<p>HTML versão 5.0 </p>
 											<p>PHP versão 7.0 </p>
@@ -90,20 +100,20 @@
 											<p>JAVASCRIPT</p>
 									    </div>
 									    
-									<h2 id="framework">Framework</h2>   
+									<h3 id="framework">Framework</h3>   
 										<p>Bootstrap</p>
 										<p>Codeigniter</p>
 						    	
-						    		<h2 id="editor-codigo">Editor de codigos</h2> 
+						    		<h3 id="editor-codigo">Editor de codigos</h3> 
 						    			<p>Sublime</p>
 						    		
-						    		<h2 id="repositorio">Repositório</h2>
+						    		<h3 id="repositorio">Repositório</h3>
 					    				<p>GitHub</p>
 					    				
-					    			<h2 id="servidor">Servidor</h2>
+					    			<h3 id="servidor">Servidor</h3>
 					    				<p>KingHost</p>
 					    			
-					    			<h2 id="atencao">Atenção</h2>
+					    			<h3 id="atencao">Atenção</h3>
 					    				<ul>
 					    					<li>CSS</li>
 						    					<p>O projeto utiliza o [bootstrap-fatec](https://github.com/fatechub/fatec-bootstrap), toda alteração de css deve ser feita na pasta `assets/css/estilo.css`, **nunca** alterar o arquivo bootstrap direto.</p>

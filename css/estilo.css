@@ -1,95 +1,51 @@
 body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.6;
   color: #000;
 }
 
-
-
-
-/* *****FORMATAÇÃO MENU***** */
-.navbar.navbar-default.navbar-fixed-top{
-  background: #22313F;
-  border-bottom: 5px solid #CF000F;
+h2, h3{
+  color: #22313F;
 }
 
-.navbar-brand {
-  font-family: century;
-  font-size: 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #FFF;
-  float: left;
-  letter-spacing: 1px;
-  height: 50px;
-  padding: 20px 15px;
-}
-
-.nav {
-  margin-bottom: 0px;
-}
-
-.nav a {
-  font: 500 11px Lato;
-  text-decoration: none;
-  letter-spacing: 2px;
-  padding: 20px 15px 20px 15px;
-  text-transform: uppercase;
-  position: relative;
-  z-index: 1000;
-  color: #FFF;
-}
-
-.nav a:hover {
-  background-color:#FFFFFF;
-  color: #000000;
-}
-
-.nav li {
-  position: relative;
-}
-
-.active{
-	background-color: #2C3E50;
-	color: #FFF;
+h3{
+  padding: 2% 0%;
 }
 
 table > tbody > td > a:visited{
   color: #FF0;
 }
 
-.navbar-collapse {
-  box-shadow: none;
-  border: none;
+/* *****FORMATAÇÃO menu***** */
+#fh5co-aside #fh5co-main-menu ul li {
+  margin: 0 0 3px 5px;
+  padding: 0;
+  list-style: none;
+}
+#fh5co-aside #fh5co-main-menu ul li a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  padding: 10px 10px;
+  letter-spacing: .2em;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
-.hover {
-  display: block;
-  position: absolute;
-  width: 0%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #EE445F;
-  z-index: 0;
-  opacity: 0;
-}
-/* *****FORMATAÇÃO ARTICLE***** */
-
-.corpo{
-  margin:0 50px 0 50px;
+#fh5co-aside #fh5co-main-menu .espaco li a{
+  margin-left: 2em;
+  font-size:12px;
+  color:#000;
 }
 
-
-/* *****FORMATAÇÃO SECTION***** */
-
-#conteudo {
-  width: 80%;
-	background-color: #FFF;
-	margin: 35px auto 0 auto;
-	padding: 0px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
-  margin-bottom: 30px;
-  margin-left: 500;
-}
 
 /* *****FORMATAÇÃO FOOTER***** */
 
@@ -100,51 +56,7 @@ footer {
  	background-color: #22313F;
  	color:#fff;
  	font-size:12px;
-
 }
-
-.foto{
-  width: 90%;
-}
-
-/*Codigo Andressa*/
-
-.epaco{
-  margin-top: 45px;
-  padding-top: 50%;
-  background-color: blue;
-}
-
-.tam{
-    max-width:150px;
-    max-height:120px;
-}
-
-.tam2{
-    max-width:200px;
-    max-height:200px;
-}
-
-
-.atencao{
-    color:green;
-}
-
-figure, framework{
-  font-style: italic;
-  text-indent: 0;
-  margin-left:1%;
-  float: left;
-  
-}
-
-.LinguagemdeProg, .framework{
-  display: block;
-  height: 100px;
-  width: 850px;
-}
-
-
 
 /***Formataçaõ da tabela***/
 
@@ -189,7 +101,6 @@ body {
   height: 80%;
   position: relative;
   margin: 0px auto;
-  
 }
 
   .modal-wrapper .modal-body{
@@ -224,7 +135,6 @@ body {
   background: #fff;
   margin: 0px;
   padding: 0px;
-  
 }
 
 .modal-title{
@@ -240,17 +150,6 @@ body {
   height: 50px;
 }
 
-.fa.fa-times{
-  font-size: 20px;
-  color: #FFF;
-  
-}
-
-nav{
-  position:relative;
-  margin-top:0px;
-}
-
-#section {
-  margin-top:400px;
+.fa {
+  font-weight: 600;
 }
