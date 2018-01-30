@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
@@ -150,6 +153,7 @@ body {
   height: 50px;
 }
 
-.fa {
+.fa :not(.fh5co-footer) {
   font-weight: 600;
+  color:#000;
 }
