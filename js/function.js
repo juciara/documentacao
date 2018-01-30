@@ -9,12 +9,13 @@ var obj = [{func:"F1", "descricao":'<a href="#" class="btnF1">Login</a>'},
         {func:"F3", "descricao":'<a href="#" class="btnF3">Cadastro de Vaga</a>'},
         {func:"F4", "descricao":'<a href="#" class="btnF4">Filtro de Candidados</a>'},
         {func:"F5", "descricao":'<a href="#" class="btnF5">Lista de Alunos</a>'},
-        {func:"F6", "descricao":'<a href="#" class="btnF5">Lista de Empresas</a>'},
+        {func:"F6", "descricao":'<a href="#" class="btnF6">Lista de Empresas</a>'},
         {func:"F7", "descricao":'<a href="#" class="btnF7">Excluir Vaga</a>'},
-        {func:"F8", "descricao":'<a href="#" class="btnF8">Alteração de Dados da Empresa</a>'},
-        {func:"F9", "descricao":'<a href="#" class="btnF9">Alteração de Dados da Vaga</a>'},
-        {func:"F10", "descricao":'<a href="#" class="btnF10">FeedBack</a>'},
-        {func:"F11", "descricao":'<a href="#" class="btnF6">Desabilitar Empresa</a>'}];
+        {func:"F8", "descricao":'<a href="#" class="btnF8">Alter Empresa</a>'},
+        {func:"F9", "descricao":'<a href="#" class="btnF9">Alterar Vaga</a>'},
+        {func:"F10", "descricao":'<a href="#" class="btnF10">Excluir vaga</a>'},
+        {func:"F11", "descricao":'<a href="#" class="btnF11">Desabilitar Empresa</a>'},
+        {func:"F12", "descricao":'<a href="#" class="btnF12">FeedBack</a>'}];
  
 var tabela = document.getElementById("tabela");
 

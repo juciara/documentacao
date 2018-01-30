@@ -63,6 +63,11 @@
 							<li><a href="#repositorio">Repositório</a></li>
 							<li><a href="#servidor">Servidor</a></li>
 							<li><a href="#atencao">Atenção</a></li>
+							<li><a href="#instalacao">Instalação</a></li>
+							<li><a href="#relacionamento-bd">Relacionamento BD</a></li>
+							<li><a href="#usando-git">Usando o git</a></li>
+							<li><a href="#automatizacao-desenvolvimento">Automatização de desenvolvimento</a></li>
+							<li><a href="#gults">Lista de tasks do gulp</a></li>
 						</ul>
 					</nav>
 		<!--
@@ -116,16 +121,130 @@
 					    					<li>HTML</li>
 					    						<p>Pelo projeto ser feito utilizando **PHP**, é usado o conceito de MVC, onde a parte de visualização é separada da regra de negócio. É também interessante pelo fato de que um menu pode ser inserido nas páginas através de um unico arquivo .html, facilitando manutenção e escalabilidade. [MVC]() , [Views PHP]()</p>
 					    				</ul>
-					    				
-						    </div>
-						</div>
+									<h3  id="instalacao">Instalação</h3>
+										<p>	Para instalar o projeto é necessário clonar o repositorio no seu computador e ter instalado o xamp para desenvolvimento PHP.</p>
+											<ul>
+										  <li>primeiro</li>
+										  <li> segundo</li>
+										</ul>
+										
+								<!--	
+									```sh
+									
+									  // Entrar na pasta do xampp e procurar a pasta htdocs, essa pasta contém os projetos iniciados pelo servidor. Então é clonado o projeto dentro dessa pasta que o programa reconheça
+									
+									  $ cd ...\xampp\htdocs 
+									
+									  // Clone o repositorio
+									
+									  $ git clone repo
+									  $ git cd Fatec-IEE
+									
+									  iniciar o xamp e verificar a url 
+									
+									  http://localhost/fatec-iee/
+									
+									```
+									
+									Após baixar o projeto é necessário alterar o arquivo config.php para o link do seu computador,
+									o link é acessado entrando no projeto/application/config/config.php. Deve ser alterada a base_url para a url do servidor local.
+									
+									```php
+									// Alterar essa linha para a do seu projeto
+									  // Antes
+									  $config['base_url'] = 'https://fatec-iee-wickedjhow.c9users.io/iee/';
+									
+									  // Depois
+									  $config['base_url'] = 'http://localhost/fatec-iee/'; -->
 
+								<h3 id="usando-git">Usando o git</h3>
+									<p>	O git é uma ferramenta de versionamento de controle utilizada em praticamente todas as equipes de desenvolvimento atuais. Para instalar acesse <a href="https://git-scm.com">GIT</a>. Para um tutorial envolvendo branchs seguir para <a href="http://rogerdudler.github.io/git-guide/index.pt_BR.html">git - guia prático</a></p>
+								
+									<ul>
+										<li>Master - O que está em produção estável;</li>
+										<li>Branch - Ambiente de altereção fora da master; </li>
+									</ul>
+								
+									<code>git clone link-repositorio</code>
+									<p>Baixar um projeto para o computador:</p>
+									
+									<code>git pull</code>
+									<p>Sempre antes de enviar alterações é importante baixar a ultima versão do repositorio</p>
+									
+									 <code>git add .</code>
+									<p>Inserir arquivos novos e alterações para o git. O ponto é um coringa para tudo, você pode também colocar individualmente.</p>
+									
+									<h4>Salvar mudanças</h4>
+									<code>git commit -m </code>
+									<p>"Inserido arquivos relacionados as vagas"</p>
+									    
+									<code>git push origin master</code>
+									<p>Enviar mudanças para o servidor (quando nao estiver trabalhando em uma branch)</p>
+									
+									<code>git branch -r</code>
+									<p>Checar nome de branchs existentes</p>
+									
+									<code>git checkout -b novas-alterações</code>
+									<p>Criar Branch</p>
+									
+								<h3>Desenvolvimento padrão</h3>
+									<p>Criar uma branch e realizar todo o versionamento nela, assim todos os arquivos ficariam com um backup caso aconteça um problema e não influenciaria no trabalho de outro desenvolvedor.</p>
+								
+								<!--
+								```bash
+								git checkout -b nome-branch
+								git status
+								git add .
+								git commit -m 'mensagem'
+								git push -u origin nome-branch
+								
+								git status (conferir)
+								```
+								
+								Inserir mudanças a branch principal (master)
+								
+								```bash
+								git checkout master
+								git pull
+								git pull origin marys-feature
+								git push
+								```
+								-->
+								<h3  id="automatizacao-desenvolvimento">Automatização de Desenvolvimento</h3>
+									<p>Você pode programar normalmente sem usar nenhuma ferramenta além do git, xampp ou c9, porém existem formas de automatizar algumas tarefas e aumentar a produtividade de desenvolvimento.</p>
+									<p>Junto do projeto é acompanhado uma série de scripts de um ferramenta chamada NPM, que é um pacote de gerenciamentos do Node.js.</p>
+									<p>Para utilizar o npm é necessário instalar o [Node.js](https://nodejs.org/en/download/) (vem atrelado). </p>
+									<p>Após instalar o node você pode começar a utilizar o gulp, que é um gerenciador de tarefas do node para melhorar sua rotina de trabalho.</p>
+								
+								<!--
+								```bash
+								# Go into the repository
+								$ cd Fatec-IEE
+								
+								# Instala as dependencias
+								$ npm install
+								
+								# Começa a rodar as tarefas
+								$ gulp start -->
+							
+								<h3 id="gulp">Lista de tasks do gulp</h3>
+								
+								<ul>
+									<li>Watch ou Start</li>
+									<p>Se qualquer arquivo for alterado dentro da estrutura do projeto, ele vai realizar um refresh na página no navegador, também ira realizar minificação de javascript, css e fotos.</p>
+									<li>Imagemin</li>
+									<p>Otimiza todas as imagens do projeto, sempre bom ultilizar caso tenha feito alterações ou inserções.</p>
+								</ul>
+								
+							</div>
+					    </div>				
+					</div>
 					
 					<footer>
-						<p>&copy;2017 Fatec Rubens Lara. Desenvolvido por Equipe Web</p>
+						<p>&copy;2018 Fatec Rubens Lara. Desenvolvido por Equipe Web</p>
 				    </footer>
+				
 				</div>
-			</div>
 		</section>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
