@@ -42,10 +42,10 @@
 					<nav id="fh5co-main-menu" role="navigation">
 						<ul>
 							<li class="home"><a href="index.html">Home</a></li>
-							<li><a href="#atores">Arquitetura</a></li>
+							<li><a href="#arquitetura">Arquitetura</a></li>
 							<li><a href="#atores">Atores</a></li>
 							<li><a href="#funcionalidades">Funcionalidades</a></li>
-							<li><a href="#infomacoes">Informações Adicionais</a></li>
+							<li><a href="#informacoes">Informações Adicionais</a></li>
 						</ul>
 					</nav>
 		<!--
@@ -64,23 +64,32 @@
 						<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 								<h1 id="ife">IFE - Interação Faculdade-Empresa</h1>
-								<p>Os alunos da FATEC RL contam com o auxílio do IFE. Sistema que gerencia o contato de empresa com o aluno. O administrador autenticado realiza o cadastro de aluno por arquivo xml e o cadastro da empresa.</p>
-								<p>Após o cadastro a empresa recebe acesso para cadastrar suas respectivas vagas. Logo a empresa tem acesso aos candidatos que foram filtrados de acordo com os requisitos solicitados. Após a seleção é enviado uma notificação ao aluno. A empresa é responsável pelo FeedBack da seleção.</p>
+								<br>
+								<p>Os alunos da FATEC RL contam com o auxílio do IFE (Interação Faculdade-Empresa), sistema desenvolvido que gerencia o contato da empresa com o aluno, fornecendo de forma direta aos alunos oportunidades de estágios. </p>
 							</div>
 						</div>
 						
 						<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 								<h3 id="atores">Atores</h3>
-								<p>Administrador</p>
-								<p>Empresa</p>
+									<ul>
+										<li>Administrador</li>
+										<li>Empresa</li>
+									</ul>
+									
+								<h3>Regra de Negócios</h3>
+								<p>O administrador autenticado realiza o cadastro dos alunos, através do envio do arquivo xml, e o cadastro da empresa.
+									Cadastrada, a empresa recebe acesso para inserir suas respectivas vagas, e também tem acesso aos candidatos que foram filtrados de acordo com os requisitos solicitados.</p>
+									<p>Cada aluno desse filtro recebe um email de notificação a respeito da vaga. Quando terminado o processo seletivo a empresa é responsável pelo FeedBack da seleção, informando dessa forma se algum aluno foi ou não contratado.</p>
 							</div>
 						</div>
-						
-						<div class="row">
+			
+				<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								
 								<h3 id="arquitetura">Arquitetura IFE</h3>
-								<img src="img/funcionalidades/ife/empresa.PNG" alt="Arquitetura Empresa">
+								<p>breve descrição </p>
+								<img src="img/funcionalidades/ife/empresa.PNG" alt="Arquitetura Empresa" class="arquitetura">
 							</div>
 						</div>
 						
@@ -153,29 +162,33 @@
 				       	<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 								<h3 id="informacoes">Informações adicionais</h3>
-								<strong>Login e senha de acesso</strong>
-								<p><strong>Adm</strong></p>
-								<p>Login: jamir@fatec.com</p>
-								<p>Senha: 123</p>
-								<p><strong>Empresa</strong></p>
-								<p>Login: empresa@email.com</p>
-								<p>Senha: 123</p>
-							</div>
-						</div>	
-						
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<h3  id="relacionamento-bd">Relacionamento BD</h3>
-								<div align="center">
-									
+								<p>Como dito anteriormente o acesso pode ser feito por adm e empresa através de seus respectivos login e senha:</p>
 							</div>
 						</div>
+						
+						<div class="row">
+							<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+								<p><strong>Administrador</strong></p>
+								<ul>
+									<li>Login: jamir@fatec.com</li>
+									<li>Senha: 123</li>
+								</ul>
+							</div>
+							<div class="col-md-5 animate-box" data-animate-effect="fadeInLeft">
+								<p><strong>Empresa</strong></p>
+								<ul>
+									<li>Login: empresa@email.com</li>
+									<li>Senha: 123</li>
+								</ul>
+							</div>
+						</div>	
 					</div>
-				</div>
-				
-					<footer>
+						<footer>
 						<p>&copy;2018 Fatec Rubens Lara. Desenvolvido por Equipe Web</p>
 				    </footer>
+				</div>
+				
+				
 				
 			</div>
 	<!-- jQuery -->

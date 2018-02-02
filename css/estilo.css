@@ -157,3 +157,14 @@ body {
   font-weight: 600;
   color:#000;
 }
+
+.arquitetura {
+  width: 90%;
+  margin-bottom: 3%;
+  border: 3px solid #000;
+}
+
+#fh5co-page #fh5co-main p{
+  padding-top: 0px;
+  text-indent:4em;
+}
