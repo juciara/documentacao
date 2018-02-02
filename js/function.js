@@ -42,3 +42,32 @@ for (var i in obj){
     main();
 }
 
+function wally(){
+  
+var obj = [{func:"F1", "descricao":'<a href="#" class="btnF1">Pesquisar</a>',"categoria":"Back e Front","ator":'Aluno'},
+            {func:"F2", "descricao":'<a href="#" class="btnF12">Cadastrar Professor</a>',"categoria":"Back","ator":'Empresa'}];
+ 
+var tabela = document.getElementById("tabela");
+
+for (var i in obj){
+    
+    var tr = document.createElement("tr");
+    var tdFuncionalidade = document.createElement("td");
+    var tdDescricao = document.createElement("td");
+    var tdCategoria = document.createElement("td");
+    var tdAtor = document.createElement("td");
+    var tbody = document.querySelector("tbody");
+    
+    tdFuncionalidade.innerHTML = obj[i].func;
+    tdDescricao.innerHTML = obj[i].descricao;
+    tdCategoria.innerHTML = obj[i].categoria;
+    tdAtor.innerHTML = obj[i].ator;
+    tr.appendChild(tdFuncionalidade)
+    tr.appendChild(tdDescricao);
+    tr.appendChild(tdCategoria);
+    tr.appendChild(tdAtor);
+    tbody.appendChild(tr);
+    tabela.appendChild(tbody);
+}
+}
+

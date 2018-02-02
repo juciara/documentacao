@@ -29,7 +29,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->	
 	</head>
-	<body onload="Funcionalidades()">
+	<body onload="wally()">
 		<div id="fh5co-page">
 			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 				<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -39,16 +39,24 @@
 					<nav id="fh5co-main-menu" role="navigation">
 						<ul>
 							<li class="home"><a href="index.html">Home</a></li>
-							<li><a href="#" data-toggle="collapse" data-target="#toggleDemo"> Submenu 1 <span class="fa fa-lg fa-angle-right"></span>
+							<li><a href="#" data-toggle="collapse" data-target="#toggleDemo"> Wally <span class="fa fa-lg fa-angle-right"></span>
 						          </a></li>
 						          <div class="collapse espaco" id="toggleDemo">
 						            <ul>
-						              <li ><a href="index.html">home</a></li>
-						              <li><a href="#">Submenu1.2</a></li>
-						              <li><a  class="" href="#">Submenu1.3</a></li>
+						              <li ><a href="index.html">Atores</a></li>
+						              <li><a href="#">Regra de Negócios</a></li>
+						              <li><a  class="" href="#">Funcionalidades</a></li>
 						            </ul>
 						           </div>
-							<li><a href="#">...</a></li>
+							<li><a href="#" data-toggle="collapse" data-target="#toggleDemo"> Projetos <span class="fa fa-lg fa-angle-right"></span>
+						          </a></li>
+						          <div class="collapse espaco" id="toggleDemo">
+						            <ul>
+						              <li ><a href="index.html">Atores</a></li>
+						              <li><a href="#">Regra de Negócios</a></li>
+						              <li><a  class="" href="#">Funcionalidades</a></li>
+						            </ul>
+						           </div>
 							<li><a href="#">...</a></li>
 							<li><a href="#">...</a></li>
 							<li><a href="#">...</a></li>
@@ -93,6 +101,8 @@
 								<h1 id="ife">Wally</h1>
 								<br>
 								<p>O Wally é um sistema desenvolvido para auxilio dos alunos da FATEC RL a se informarem dos horários dos professores, facilitando assim a comunicação entre alunos e professores.</p>
+									<img src="img/wally.png" alt="Arquitetura Wally" class="arquitetura">
+									
 							</div>
 						</div>
 						
@@ -106,18 +116,10 @@
 									
 								<h3 id="regra">Regra de Negócios</h3>
 								<p>Para utilização do Wally o aluno pode fazer a pesquisa por nome ou letra, quando selecionado o professor(a), o aluno é direcionado para uma nova tela onde será informado dos dias e horários em que o ele(a) estará na faculdade.</p>
+								<img src="img/wally_prof.png" alt="Arquitetura Wally" class="arquitetura">
 							</div>
 						</div>
 			
-				<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								
-								<h3 id="arquitetura">Arquitetura Wally</h3>
-								<p>breve descrição </p>
-								<img src="img/funcionalidades/ife/empresa.PNG" alt="Arquitetura Empresa" class="arquitetura">
-							</div>
-						</div>
-						
 						<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 								<h3 id="funcionalidades">Funcionalidades</h3>
@@ -156,6 +158,80 @@
 								</div>
 							</div>
 						</div>
+
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<h1>Projetos</h1>
+								<br>
+								<p>Essa é a área dos Projetos da FATEC RL, os projetos são variados com suas categorias e são cadastrados pelo EquipeWeb, assim oferecendo informações sobre cada projeto ao aluno. Atualmente existe o cadastro dos seguintes projetos.
+								</p>
+								<ul>
+									<li>EOAC</li>
+									O projeto tem como objetivo promover a investigação de métodos e técnicas para o gerenciamento de sistemas envolvendo a operação de bens e serviços, bem como o gerenciamento da cadeia de suprimentos para a obtenção de sistemas produtivos de elevada eficiência e eficácia.
+									<li>Games</li>
+									O projeto tem como objetivo dar acesso aos jogos que foram desenvolvidos por alunos da unidade com os conhecimentos adquiridos em curso.
+									<li>Projeto BI</li>
+									O projeto tem como objetivo dar continuidade ao projeto de Sistemas de Informação com o recurso de Business Intelligence (BI) para análise e entendimento do perfil do aluno, evasão dos alunos, estágios oferecidos, deficiências do aprendizado e absorção do mercado de trabalho.
+									<li>Nova Era</li>
+									O projeto tem como objetivo desenvolver junto com os professores, através de aulas práticas,uma metodologia voltada a Terceira Idade.
+									<li>Inova</li>
+									O projeto tem como objetivo promover a educação empreendedora e descobrir ideias que possam ser colocadas em prática para que tenham como base a relação entre o que é técnica ou tecnologicamente factível e o que é estrategicamente viável, buscando atender às necessidades da comunidade e contribuir para o desenvolvimento sustentável.
+								</ul>
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<h3 id="atores">Atores</h3>
+									<ul>
+										<li>Administrador</li>
+									</ul>
+									
+								<h3 id="regra">Regra de Negócios</h3>
+								<p>regra de negocios do evento</p>
+							</div>
+						</div>
+			
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<h3 id="funcionalidades">Funcionalidades</h3>
+									<table id="tabela" class="table table-striped">
+							            <thead>
+							                <th>Funcionalidade</th>
+							                <th>Descrição</th>
+							                <th>Categoria</th>
+							                <th>Ator</th>
+							            </thead>
+							            <tbody>
+				            			</tbody>
+				        			</table> 
+				        
+		  			 		<!--Modal Login -->
+								<div id="modal-um" class="modal-bg">
+								  	<div class="modal-wrapper">
+										<div class="modal-header">
+											<div class="modal-title">
+										  		<h3></h3>
+											</div>
+											<div class="modal-header_close">
+												<i class="fa fa-times" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="novo-css">
+											<div class="modal-body">
+							  			 		<p></p>
+												<img></img>
+											</div>
+										</div>
+										<div class="modal-footer">
+											<a href="iee.html">IFE</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						
 					</div>
 						<footer>
 						<p>&copy;2018 Fatec Rubens Lara. Desenvolvido por Equipe Web</p>
