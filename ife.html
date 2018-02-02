@@ -42,8 +42,9 @@
 					<nav id="fh5co-main-menu" role="navigation">
 						<ul>
 							<li class="home"><a href="index.html">Home</a></li>
-							<li><a href="#arquitetura">Arquitetura</a></li>
 							<li><a href="#atores">Atores</a></li>
+							<li><a href="#regra">Regra de Negócios</a></li>
+							<li><a href="#arquitetura">Arquitetura</a></li>
 							<li><a href="#funcionalidades">Funcionalidades</a></li>
 							<li><a href="#informacoes">Informações Adicionais</a></li>
 						</ul>
@@ -77,7 +78,7 @@
 										<li>Empresa</li>
 									</ul>
 									
-								<h3>Regra de Negócios</h3>
+								<h3 id="regra">Regra de Negócios</h3>
 								<p>O administrador autenticado realiza o cadastro dos alunos, através do envio do arquivo xml, e o cadastro da empresa.
 									Cadastrada, a empresa recebe acesso para inserir suas respectivas vagas, e também tem acesso aos candidatos que foram filtrados de acordo com os requisitos solicitados.</p>
 									<p>Cada aluno desse filtro recebe um email de notificação a respeito da vaga. Quando terminado o processo seletivo a empresa é responsável pelo FeedBack da seleção, informando dessa forma se algum aluno foi ou não contratado.</p>
@@ -131,33 +132,7 @@
 								</div>
 							</div>
 						</div>
-						<!--
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<h3  id="exemplos">Exemplos</h3>
-									Um controller alunos.php
-									
-								<code>	
-									<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
-									
-									class Alunos extends CI_Controller {
-									    
-										function __construct() {
-									    	parent::__construct();
-									    	$this->load->model('alunos_model');
-										}
-										
-										public function index(){
-											$this->load->view('includes/header'); // Retorna as views
-											$this->load->view('alunos/adicionar');
-											$this->load->view('includes/footer');
-										}
-									
-									}
-								</code>
-								</div>
-							</div>
-								-->
+						
 									
 				       	<div class="row">
 							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
@@ -187,9 +162,6 @@
 						<p>&copy;2018 Fatec Rubens Lara. Desenvolvido por Equipe Web</p>
 				    </footer>
 				</div>
-				
-				
-				
 			</div>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
