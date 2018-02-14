@@ -45,7 +45,7 @@ for (var i in obj){
 function wally(){
   
 var obj = [{func:"F1", "descricao":'<a href="#" class="btnF1">Pesquisar</a>',"categoria":"Back e Front","ator":'Aluno'},
-            {func:"F2", "descricao":'<a href="#" class="btnF12">Cadastrar Professor</a>',"categoria":"Back","ator":'Empresa'}];
+            {func:"F2", "descricao":'<a href="#" class="btnF12">Cadastrar Professor</a>',"categoria":"Back","ator":'Adm'}];
  
 var tabela = document.getElementById("tabela");
 
